@@ -1,0 +1,24 @@
+{
+  "name": "UdemyPractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ArrayProblemSet.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "locus": "^2.0.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

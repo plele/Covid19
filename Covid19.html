@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Covid19</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <form id="country-form">
+      <label for="Country">Select name of the country</label>
+      <!-- <input type="text" id="Country" /> -->
+      <select id="countriesDropdown">
+        <option value="">Select a Country</option>
+      </select>
+    </form>
+    <div>
+      <h3>Country</h3>
+      <p id="enteredCountry"></p>
+    </div>
+    <div>
+      <h3>No. of Cases</h3>
+      <p id="totalCases"></p>
+    </div>
+    <div>
+      <h3>No. of recovered</h3>
+      <p id="totalRecovered"></p>
+    </div>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>
